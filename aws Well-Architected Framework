@@ -1,0 +1,174 @@
+O Aws Well Architected Framework documenta um conjunto de perguntas fundamentais que permitem compreender 
+se uma arquitetura especifica se alinha bem as praticas recomendadas da nuvem.
+
+Esse framework descreve as praticas recomendadas e as estrategias da AWS a serem usadas ao projetar 
+e operar workload na nuvem e fornece links para detalhes de implementacao e padroes de arquitetura
+adicionais.
+
+O AWS Well Architected Framework e baseado em seis pilaresÇ
+
+Excelencia operacional
+seguranca
+Confiabilidade
+Eficiencia de performance
+Otimizacao de Custos
+Sustentabilidade
+
+Pilar Excelencia operacional
+
+1 - Esse pilar tem como papel de apoiar o desenvolvimento e executar cargas de trabalho com eficacia, melhorar
+processos continuamente para oferecer valore empresarial, ele obtem inseghts sobre as operações para melhoraro
+o suporte.
+
+Pilar de seguranca
+
+Esse pilar descreve como aproveitar as tecnologias de nuvem para proteger, dados, sistemas e ativos
+de uma maneira que possa melhorar sua postura ge seguranca.
+
+Pilar de Confiabilidade
+
+O Pilar de confiabilidade abrange a capacidade de uma carga de trabalho de executar a funcao pretendida
+correta e consistentemente quando esperado.
+
+Pilar de Eficiencia de Performance
+
+Esse pilar trata da capacidade de usar recursos de computação com eficiencia para atender os requisitos
+do sistema e manter essa eficiencia a medida que a demanda muda e as tecnologias evoluem
+
+Pilar de Otimização de Custos
+
+A capacidade de executar sistemas para entregar o valor empresarial ao menor processos
+
+Pilar de Sustentabilidade
+
+Esse pilar inclui a possibilidade de melhorar continuamente os impactos sobre a Sustentabilidade com a
+reducao do consumo de energia.
+
+Deep a Dive Excelencia operacional
+
+Principio de design
+
+5 Principios de design para excelencia operacional na nuvem
+
+1 Execute Operações como código: Esse design da Excelencia Operacional, fala sobre infraestrutura como
+código, automatizar procedimentos de operações. Ao automatizar ooperaçÕes como código, você limita 
+o erro humano e permite respostass consistentes aos eventos.
+
+2 Faça Alterações frequentes, pequenas e reversiveis: Projetar cargas de trabalhos para que os componentes
+sejam atualizados regularmente. As alterações devem ser feitas em pequenos incrementos para que 
+possam ser revertidas em caso de falha.
+
+3 - Refina os procedimentos com frequencia: Ao usar procedimentos de operaca, procure oportunidades
+para melhoralos
+
+4 Antecipe Falhas: Execute exercicios pré-mortem para identificar as potencias origens de falhas, para
+que possam ser removidas ou mitigadas. 
+
+5 Aprenda com todas as falhas Operacionais: Promova melhorias com as lições aprendidas em todos os eventos
+e falhas operacionais. 
+
+Existem 4 Práticas recomendadas ainda falando sobre Excelencia Operacional
+
+1 Organização
+2 Preparar 
+3 Operar 
+4 Evoluir
+
+Deep a Dive Pilar de Segurança
+
+O Pilar de seguranca refere-se a capacidade de proteger dados, sistemas e ativos para utilizar As
+tecnologias de nuvem para melhorar sua seguranca.
+
+Existem 7 Principios de design 
+
+1: Implementar uma forte base de identidade
+2: Habilitar a rastreabilidade
+3: Aplicar seguranca a todas as camadas
+4: Automatizar as melhores praticas de seguranca
+5: Proteger dados em transito e em repouso
+6: Manter Pessoas Afastadas de Dados 
+7: Preparar-se para eventos de seguranca
+
+Existem 6 areas de praticas recomendads de seguranca na nuvem
+
+1 seguranca
+2 Gerenciamento de Identididade e acesso
+3 Deteccao 
+4 Protecao de infraestrutura
+5 Protecao de Dados 
+6 Resposta a Incidentes
+
+Deep a Dive Confiabilidade
+
+Principios de design
+
+1 Recuperacao Automatica a Falhas
+2 Testar os procedimentos de Recuperacao
+3 Escale horizontalmente para aumentar a disponibilidade agregada de trabalho
+4 Parar de tentar adivinhar a capacidade
+5 Gerencie as alterações na automacao: Alteracoes na sua infraestrutura devem ser feitas por meio
+de automacao
+
+Quatro areas de melhores praticas
+
+1 Fundamentos
+2 Arquitetura da Carga de trabalho
+3 Gerenciamento de mudanças
+4 Gerenciamento de Falhas
+
+
+Deep a Dive Eficiencia de Performance
+
+Esse pilar tem 5 principios de Design:
+
+1 Democratizar tecnologias Avancadas
+2 Tornar-se global em minutos 
+3 Usar arquitetura sem servidor
+4 Experimentar com mais frequencia 
+5 Considere a afinidade mecanica
+
+Existem 4 areas de praticas recomendadas
+
+1 Selecao 
+2 Analise 
+3 Monitoramento 
+4 Concessoes
+
+
+Deep a Dive Pilar de Otimizacao de Custos
+
+1 Implemente o gerenciamento financeiro na nuvem 
+2 Adote um modelo de consumo
+3 Avaie a eficiencia Gerak
+4 Para de gastar dinheiro em tarefas pesadas genericas
+5 Analise e atribue despesas
+
+Esse pilar possui 5 areas recomendadas
+
+1 Pratique o gerenciamento financeiro na nuvem
+2 Reconhecimento de Despesas e usos
+3 Recursos economicos
+4 Gerenciar Recursos de demanda e fornecimento
+5 Otimizar ao longo do tempo
+
+
+Deep a Dive Pilar de Sustentabilidade
+
+1 Compreenda seu impacto
+2 Estabeleca metas de Sustentabilidade
+3 Maxime a utilizacao
+4 Antecipe e adote ofertas de hardware e software novos e mais eficientes
+5 Use servicos gerenciados 
+6 Reduza o impacto posterior de suas workloads na nuvem
+
+Existem 6 areas de praticas recomendadas de Sustentabilidade
+
+1 Escolha a regiao
+2 Padroes de comportamento do usuario
+3 Padroes de software e arquitetura
+4 Padroes de Dados
+5 Padroes de hardware
+6 Processo de Desenvolvimento e implantacao
+
+
+
